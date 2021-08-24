@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+.app{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.item{
+    padding: 15px 20px;
+}
+
+header{
+    background-color: rgb(250, 51, 84);
+    width: 100%;
+}
+
+main{
+    background-color: rgb(121, 121, 15);
+    width: 25%;
+  
+}
+aside{
+    background-color: rgb(15, 121, 63);
+    width: 75%;
+   
+}
+footer{
+    background-color: rgb(59, 6, 41);
+    width: 100%;
+  
+}
